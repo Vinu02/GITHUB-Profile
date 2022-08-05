@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+
+body {
+    background-color: rgba(157, 173, 157, 0.714);
+  }
+
+  .col {
+    display: flex;
+    justify-content: center;
+    color: rgba(247, 245, 245, 0.849);
+    font-family: "Roboto", sans-serif;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+    background-color: rgb(57, 63, 75);
+    position: relative;
+  }
+
+  .fa-github:before {
+    content: "\f09b";
+    position: absolute;
+    left: 2%;
+  }
+
+  h5 {
+    display: flex;
+    color: white;
+    padding-left: 0%;
+    color: rgb(146, 137, 137);
+  }
+  
+
+  .col-md-3{
+
+    background-color: rgb(66, 57, 57);
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 15px 15px 15px 15px;
+ 
+  }
+
+  .container {
+    padding: 10%;
+    padding-top: 10vh;
+  }
+
+  .row {
+    padding-top: 0vh;
+    padding-bottom: 10vh;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .row-1{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .row p {
+    color: white;
+    background-color: rgb(66, 57, 57);
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 150px;
+  }
+
+  .search {
+    display: flex;
+    padding-top: 0.5%;
+    font-size: large;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: gray;
+    padding-left: 5px;
+  }
+
+  .col-md-6 {
+    width: 75%;
+    text-align: left;
+    padding-top: 0.5vh;
+    padding-left: 3vh;
+  }
+
+  .col-md-2 {
+    background-color: rgb(66, 57, 57);
+    height: 120px;
+    width: 100px;      
+    padding: 10px;
+    border-radius: 15px 15px 15px 15px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 6px;
+    display: flex;
+  }
+
+  .col-md-10 {
+    background-color: rgb(66, 57, 57);
+    height: 20vh;
+    width: 99%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 15px 15px 15px;    
+    margin-left: 50px;
+    padding: 10px;
+  }
+
